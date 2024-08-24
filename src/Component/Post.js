@@ -221,7 +221,7 @@ return(
                     <div className="part1">
                     <div className="box-part1">                  
                     <label for="input"><i></i></label>
-                    <input multiple type="file"  id="input" name="file" value={file} onChange={change}/>
+                    <input multiple type="file"  id="input" name="file"  onChange={change}/>
                     {file===""&&check? "":""} 
                 </div>
                  </div>
