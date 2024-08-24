@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0; 
+ }
+
+
+
+.container1{
+
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+   
+
+
+    .box{
+        
+        width:432px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.5);
+        border-radius: 10px;
+        background-color: white;
+        margin: 40px 20px 20px 20px;
+        text-align: left;
+        display: inline-block;
+  
+
+    .signup{
+        
+        padding: 10px 16px;
+        .heading{
+            color: #1c1e21;
+            font-size: 32px;
+            font-weight: 600;
+
+        }
+        .info{
+            color:#606770;
+            font-size: 15px;
+        }
+
+        }
+   
+    .form{
+       
+        padding: 16px;
+        border-top: 1px solid #dadde1;
+        
+
+     .textcolor{
+        color:red;
+        font-size:12px;
+     }  
+     .textcolor1{
+        color:red;
+        font-size: 12px;       
+     }
+
+     .textc{
+        width: 200px;
+        border:1px solid red;
+        border-radius: 6px;
+       
+     } 
+     
+    .text{
+        width:200px;
+    }
+  
+    .text1{
+        width: 200px;
+        padding-left: 10px;   
+    }
+    .icon{
+        color:red;
+        padding-top: 15px;        
+    }
+    .text2{
+        padding-top: 10px;
+        width: 400px;
+        
+    }
+    .textp{
+        width: 400px;
+        border:1px solid red;
+        border-radius: 6px;
+    }
+    .password{
+  
+        position: absolute;
+      margin-top:20px;
+      margin-left: -2rem;
+      cursor: pointer;
+      font-size: 20px;
+      
+      }
+
+    .day{
+        margin:15px 0px;
+    .birthday{
+        color:#606770;
+        font-size: 12px;
+        span{
+            
+        font-size: 12px;
+        } 
+    }
+
+.day1{
+    margin-top: 3px;
+    .dob{
+
+     width:125px;  
+    }
+    .dobd{
+        width:125px;  
+        border:1px solid red;
+        border-radius: 6px;
+    }
+    .doby{
+        border:1px solid red;
+        border-radius: 6px;
+        width: 125px;
+        margin-left: 12px;
+    }
+    .dob1{
+        width: 125px;
+        margin-left: 12px;
+    }
+}
+    }
+
+.radiobtn{
+
+    margin:15px 0px;
+    .content{
+
+        color:#606770;
+        font-size: 12px;
+        
+
+        span{           
+        font-size: 12px;
+        padding-left: 5px;
+        } 
+    }
+    .gender{
+          margin-top: 3px;
+          display: flex;
+          flex-wrap: wrap;
+          width: 411px;
+
+          .gender1{
+            width:125px; 
+            border: 1px solid red;
+            margin-left: 12px;
+            height:36px;
+            label{
+                padding: 0 28px 0 10px;
+                line-height: 36px;
+                font-size: 15px;
+                color: #1c1e21;
+            }
+            input{
+               margin-left: 10px;
+
+            }
+
+          }
+          .gender2{
+            width:125px; 
+            border: 1px solid red;          
+            height:36px;
+            label{
+                padding: 0 28px 0 10px;
+                line-height: 36px;
+                font-size: 15px;
+                color: #1c1e21;
+            }
+            input{
+               margin-left: 10px;
+
+            }
+          }
+        .Male{
+            width:125px; 
+            border: 1px solid #ccd0d5;
+            margin-left: 12px;
+            height:36px;
+            label{
+                padding: 0 28px 0 10px;
+                line-height: 36px;
+                font-size: 15px;
+                color: #1c1e21;
+            }
+            input{
+               margin-left: 30px;
+
+            }
+        }
+        .Female{
+            width:125px; 
+            border: 1px solid #ccd0d5;
+            height:36px;
+            label{
+                padding: 0 28px 0 10px;
+                line-height: 36px;
+                font-size: 15px;
+                color: #1c1e21;
+            }
+            input{
+               margin-left: 10px;
+
+            }
+        }
+        .Custom{
+            width:125px; 
+            border: 1px solid #ccd0d5;
+            margin-left: 12px;
+            height:36px;
+            label{
+                padding: 0 28px 0 10px;
+                line-height: 36px;
+                font-size: 15px;
+                color: #1c1e21;
+            }
+            input{
+               margin-left: 10px;
+
+            }
+        }
+    }
+}
+
+.custom{
+    margin-bottom: 20px;
+
+.pronoun{
+    width: 400px;
+}
+.pronoun1{
+    width:400px;
+    border: 1px solid red;
+    border-radius: 6px;
+}    
+.caption{
+    font-size: 12px;
+    color:#606770;
+ }
+ .option{
+    width:400px;
+    margin-top: 10px;
+ }   
+
+    }
+
+
+.learn{
+    color: #777;
+    font-size: 11px;
+p{
+    a{
+        text-decoration: none;
+        color: #385898;
+        cursor: pointer;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+}
+.terms{
+    margin: 12px 0px;
+    color: #777;
+    font-size: 11px;
+    width:400px;
+  
+    p{
+        a{
+            text-decoration: none;
+            color: #385898;
+            cursor: pointer;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+    
+
+.button{
+    text-align: center;
+    .sign{
+        background-color: #00a400;
+        color:white;
+        padding: 0px 32px;
+        font-size: 18px;
+        border-radius: 6px; 
+        height: 36px;
+        font-weight: 600;
+        border: none;
+        min-width: 194px;
+        margin:10px 0px;
+}
+}
+
+}   
+
+}
+
+
+}
+
